@@ -1,1 +1,154 @@
 /* Write your CSS here! */
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 8px;
+    align-items: center;
+    background-image: url("347245324_760746675722770_2402389231625824974_n.jpg");
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20%;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+  header {
+    background-image: linear-gradient(rgba(236, 218, 19, 0.971), #08a9df);
+    padding: 20px;
+  }
+  
+  .container {
+    min-width: 100%;
+    box-sizing: content-box;
+  }
+  
+  .site-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .main-nav {
+    margin-top: 20px;
+  }
+  
+  .main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .main-nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px 0;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  #mainHeading {
+    color: red;
+  }
+  
+  .funParagraph {
+    color: rgb(7, 7, 107);
+  }
+  
+  article {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-title {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .post-content {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .post-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .post h2,
+  .post h3 {
+    margin: 20px 0;
+    color: #222;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Styles for the s-intro section */
+  .s-intro {
+    --content-padding-top: max(20rem, 18vh);
+    --content-padding-bottom: 8rem;
+    --content-min-height: calc(var(--vspace-1) * 27);
+    z-index: 2;
+    background-color: var(--color-gray-10);
+    width: 100%;
+    height: max(var(--content-min-height), 100vh);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .width-sixteen-col {
+    --width-grid-max: var(--width-sixteen-cols);
+  }
+  
+  .s-intro__content-text {
+    z-index: 2;
+    grid-column: 1/span 8;
+    margin-top: var(--vspace-1);
+  }
+  
+  .s-intro__content-media img {
+    z-index: 2;
+    -o-object-fit: cover;
+    object-fit: cover;
+    vertical-align: bottom;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for the footer section */
+  footer {
+    background-image: url("https://ukrainian-recipes.com/wp-content/uploads/2018/12/Ornament-base.png");
+    padding: 40px 80px;
+  }
+  
