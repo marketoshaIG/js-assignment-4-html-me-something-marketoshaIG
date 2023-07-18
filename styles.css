@@ -1,11 +1,12 @@
 /* Write your CSS here! */
 body {
-    font-family: sans-serif;
-    padding: 0;
-    margin: 8px;
-    align-items: center;
-    background-image: url("347245324_760746675722770_2402389231625824974_n.jpg");
-    box-sizing: border-box;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 8px;
+  align-items: center;
+  background-image: url("https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2018/05/shutterstock_527601118.jpg");
+  background-size: contain;
+  box-sizing: border-box;
   }
   
   .wrapper {
@@ -19,8 +20,8 @@ body {
 }
 
   header {
-    background-image: linear-gradient(rgba(236, 218, 19, 0.971), #08a9df);
-    padding: 20px;
+    /* background-image: linear-gradient(blue, yellow ); */
+    padding: 0;
   }
   
   .container {
@@ -38,7 +39,6 @@ body {
   }
   
   .main-nav ul {
-    list-style: none;
     margin: 0;
     padding: 0;
   }
@@ -56,12 +56,39 @@ body {
   section {
     padding: 20px 0;
   }
+
+  #intro {
+    background: linear-gradient(to bottom, #f2f603, #200aec);
+    border: 1px solid hsl(0, 97%, 49%);
+    padding: 9px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px black;
+  }
+
+  h1 {
+  font-size: 90px;
+  font-weight: 600;
+  font-family: 'Niconne', cursive;
+  color: #e0d6e9;
+  text-shadow: 2px 2px 0px  #1406d1,
+               4px 4px 0px #1d17c8,
+               6px 6px 0px #e0e007,
+               8px 8px 0px #e7e30b,
+               10px 10px 0px #1b9ce1;
+  }
   
   h2 {
     font-size: 1.5rem;
     margin-top: 20px;
   }
   
+  h3 {
+    font-size: 70px;
+    font-weight: 500;
+    color: #553c9a;
+    border-right: 4px solid #000; /
+  }
+
   p {
     font-size: 1.2rem;
   }
@@ -101,8 +128,7 @@ body {
     line-height: 1.6;
   }
   
-  .post h2,
-  .post h3 {
+  .post h2, .post h3 {
     margin: 20px 0;
     color: #222;
   }
@@ -112,7 +138,7 @@ body {
     height: auto;
   }
   
-  /* Styles for the s-intro section */
+  /* Styles for the top*/
   .s-intro {
     --content-padding-top: max(20rem, 18vh);
     --content-padding-bottom: 8rem;
@@ -123,10 +149,6 @@ body {
     height: max(var(--content-min-height), 100vh);
     overflow: hidden;
     position: relative;
-  }
-  
-  .width-sixteen-col {
-    --width-grid-max: var(--width-sixteen-cols);
   }
   
   .s-intro__content-text {
@@ -146,9 +168,12 @@ body {
     padding: 0;
   }
   
-  /* Styles for the footer section */
+  /* Styles for footer section */
   footer {
     background-image: url("https://ukrainian-recipes.com/wp-content/uploads/2018/12/Ornament-base.png");
     padding: 40px 80px;
   }
   
+  .pcopy {
+    color:white;
+  }
