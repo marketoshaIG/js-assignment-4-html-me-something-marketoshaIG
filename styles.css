@@ -4,7 +4,7 @@ body {
   padding: 0;
   margin: 8px;
   align-items: center;
-  background-image: url("https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2018/05/shutterstock_527601118.jpg");
+  background-image: url("347245324_760746675722770_2402389231625824974_n.jpg");
   background-size: contain;
   box-sizing: border-box;
   }
@@ -19,10 +19,14 @@ body {
     box-sizing: border-box;
 }
 
-  header {
-    /* background-image: linear-gradient(blue, yellow ); */
-    padding: 0;
-  }
+.wrapper header {
+  /* background-image: linear-gradient(blue, yellow ); */
+  padding: .5em;
+  justify-content: left;
+  float: left;
+  width: 100%;
+}
+
   
   .container {
     min-width: 100%;
@@ -58,8 +62,8 @@ body {
   }
 
   #intro {
-    background: linear-gradient(to bottom, #f2f603, #200aec);
-    border: 1px solid hsl(0, 97%, 49%);
+    /* background: linear-gradient(to top, #f2f603, #200aec); */
+    border: 1px solid hsl(223, 94%, 46%);
     padding: 9px;
     border-radius: 10px;
     box-shadow: 2px 2px 1px black;
@@ -69,7 +73,7 @@ body {
   font-size: 90px;
   font-weight: 600;
   font-family: 'Niconne', cursive;
-  color: #e0d6e9;
+  color: #f3f306;
   text-shadow: 2px 2px 0px  #1406d1,
                4px 4px 0px #1d17c8,
                6px 6px 0px #e0e007,
@@ -124,8 +128,9 @@ body {
   .post-list {
     list-style-type: disc;
     margin-left: 20px;
-    color: #666;
+    color: #070bf0;
     line-height: 1.6;
+    font-size: large;
   }
   
   .post h2, .post h3 {
