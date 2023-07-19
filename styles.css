@@ -3,6 +3,7 @@ body {
   font-family: sans-serif;
   padding: 0;
   margin: 8px;
+  display: block;
   align-items: center;
   background-image: url("347245324_760746675722770_2402389231625824974_n.jpg");
   background-size: contain;
@@ -101,8 +102,8 @@ body {
     color: red;
   }
   
-  .funParagraph {
-    color: rgb(7, 7, 107);
+  #testP.funParagraph {
+    color: green;
   }
   
   article {
