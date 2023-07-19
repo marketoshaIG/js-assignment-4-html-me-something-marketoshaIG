@@ -20,7 +20,7 @@ body {
 }
 
 .wrapper header {
-  /* background-image: linear-gradient(blue, yellow ); */
+  /* background-image: url("pngwing.com.png"); */
   padding: .5em;
   justify-content: left;
   float: left;
@@ -34,7 +34,7 @@ body {
   }
   
   .site-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
   }
   
@@ -62,7 +62,7 @@ body {
   }
 
   #intro {
-    /* background: linear-gradient(to top, #f2f603, #200aec); */
+    
     border: 1px solid hsl(223, 94%, 46%);
     padding: 9px;
     border-radius: 10px;
@@ -73,7 +73,7 @@ body {
   font-size: 90px;
   font-weight: 600;
   font-family: 'Niconne', cursive;
-  color: #f3f306;
+  color: #71b6ee;
   text-shadow: 2px 2px 0px  #1406d1,
                4px 4px 0px #1d17c8,
                6px 6px 0px #e0e007,
@@ -128,7 +128,7 @@ body {
   .post-list {
     list-style-type: disc;
     margin-left: 20px;
-    color: #070bf0;
+    color: rgb(7, 7, 107);;
     line-height: 1.6;
     font-size: large;
   }
