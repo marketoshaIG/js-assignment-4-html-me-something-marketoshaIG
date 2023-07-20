@@ -5,7 +5,7 @@ body {
   margin: 8px;
   display: block;
   align-items: center;
-  background-image: url("C:\Users\kolos\OneDrive\Documents\webDev\js-assignment-4-html-me-something-marketoshaIG\images\347245324_760746675722770_2402389231625824974_n.jpg");
+  background-image: url("images/background.jpg");
   background-size: contain;
   box-sizing: border-box;
   }
@@ -111,6 +111,13 @@ body {
     color: red;
   }
   
+  citation {
+    font-size: .75em;
+    text-decoration: wavy;
+    display: flex;
+    justify-content: left;
+  }
+
   #testP.funParagraph {
     color: green;
   }
